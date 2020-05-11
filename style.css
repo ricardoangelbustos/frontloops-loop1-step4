@@ -29,6 +29,9 @@ body{
     font-size: 13px;
     color: white;
 }
+.name img:hover{
+    cursor: pointer;
+}
 .day{
     width: 100%;
     height: 20px;
@@ -150,6 +153,11 @@ body{
     background-color: white;
     color: #6a96d8;
     font-weight: 800;
+    transition: 500ms;
+}
+.write button:hover{
+    cursor: pointer;
+    border: 1px solid #6a96d8;;
 }
 @media (max-width: 1033px){
     .message1 p{
